@@ -1,0 +1,11 @@
+---
+- hosts: Semaphore-Master
+  become: true
+  vars: 
+    ansible_become_pass: master
+  tasks: 
+    - name: update apt packages
+      apt:
+        upgrade: yes
+        update_cache: yes
+

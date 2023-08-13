@@ -1,5 +1,5 @@
 ---
-- hosts: Semaphore-Master
+- hosts: SemaphoreMasterNode
   become: true
   vars: 
     ansible_become_pass: master

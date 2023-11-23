@@ -2,6 +2,6 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Test Project for GH-Actions!");
+        System.out.println("Test Project for GitHub-Actions!");
     }
 }

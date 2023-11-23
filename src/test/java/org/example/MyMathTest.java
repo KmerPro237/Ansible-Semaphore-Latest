@@ -10,7 +10,7 @@ public class MyMathTest {
     public void testSum() {
         MyMath workflow = new MyMath();
 
-        assertEquals(5, workflow.sum(2, 2), "Sum should be 5");
+        assertEquals(5, workflow.sum(2, 3), "Sum should be 5");
         assertEquals(-8, workflow.sum(-5, -3), "Sum should be -8");
         assertEquals(0, workflow.sum(0, 0), "Sum should be 0");
     }
